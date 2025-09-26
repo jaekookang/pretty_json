@@ -35,6 +35,7 @@ cd pretty_json
 chmod +x pretty_json.py
 
 # Create symlink in your PATH (adjust path as needed)
+export PATH="$HOME/bin:$PATH"
 ln -s $(pwd)/pretty_json.py ~/bin/pretty_json
 ```
 
