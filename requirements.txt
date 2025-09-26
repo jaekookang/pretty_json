@@ -1,0 +1,13 @@
+# Pretty JSON CLI Requirements
+# This tool uses only Python standard library modules
+# No external dependencies required
+
+# Minimum Python version: 3.8
+# Recommended Python version: 3.12.7
+# Tested with: Python 3.12.7
+
+# Standard library modules used:
+# - argparse (command-line argument parsing)
+# - json (JSON parsing and formatting)
+# - sys (system-specific parameters and functions)
+# - os (operating system interface)
