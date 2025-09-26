@@ -1,3 +1,5 @@
+![](./thumbnail.png)
+
 # Pretty JSON CLI
 
 A simple Python command-line tool for pretty-printing JSON and JSONL files.
@@ -17,6 +19,7 @@ A simple Python command-line tool for pretty-printing JSON and JSONL files.
 ## Installation
 
 ### Method 1: Direct Usage
+
 ```bash
 git clone https://github.com/jaekookang/pretty_json.git
 cd pretty_json
@@ -25,6 +28,7 @@ python pretty_json.py input.jsonl
 ```
 
 ### Method 2: System-wide Installation
+
 ```bash
 git clone https://github.com/jaekookang/pretty_json.git
 cd pretty_json
@@ -37,6 +41,7 @@ ln -s $(pwd)/pretty_json.py ~/bin/pretty_json
 ## Usage
 
 ### Basic Usage
+
 ```bash
 # Pretty-print to terminal
 python pretty_json.py input.jsonl
@@ -51,12 +56,14 @@ pretty_json input.jsonl -o output.json
 ### Examples
 
 **Input JSONL file (input.jsonl):**
+
 ```json
 {"name": "Alice", "age": 30}
 {"name": "Bob", "age": 25}
 ```
 
 **Output:**
+
 ```json
 [
   {
@@ -73,6 +80,7 @@ pretty_json input.jsonl -o output.json
 ## Python Environment Setup
 
 ### Using Conda (Recommended)
+
 ```bash
 # Create new environment
 conda create -n pretty_json python=3.12
@@ -83,6 +91,7 @@ conda activate base
 ```
 
 ### Using venv
+
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -91,6 +100,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 ## Development
 
 ### Running Tests
+
 ```bash
 # Test with provided sample files
 python pretty_json.py test/test_input.jsonl
@@ -98,6 +108,7 @@ python pretty_json.py test/test_input.jsonl -o test_output.json
 ```
 
 ### File Structure
+
 ```
 pretty_json/
     pretty_json.py      # Main executable
